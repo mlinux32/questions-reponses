@@ -73,6 +73,14 @@ footer {
   margin-left: 20px;
 }
 
+.mr-l80 {
+  margin-left: 80px;
+}
+
+.mr-l182 {
+  margin-left: 182px;
+}
+
 .mr-l380 {
   margin-left: 380px;
 }
@@ -83,7 +91,7 @@ footer {
 }
 
 .mr-tl {
-  margin-left: 380px;
+  margin-left: 450px;
   margin-top: -86px;
 }
 
@@ -151,10 +159,30 @@ a:hover {
 }
 
 /* page inscription */
+/* input */
 
 input {
   background-color: var(--lightolor);
-  width: 10rem;
+  width: 15rem;
   height: 2rem;
   text-align: center;
+  border-radius: 5rem;
+}
+
+/* valider/Effacer */
+
+.ivalid {
+  width: 20px;
+  height: 20px;
+}
+
+.ifface {
+  width: 20px;
+  height: 20px;
+}
+
+/* content */
+
+.content-form {
+  margin: 40px 0px 40px 360px;
 }
